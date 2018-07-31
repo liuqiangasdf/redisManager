@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: redisManager
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: liuqiang
+Implementation-Vendor-Id: cn.lq
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/redisManager
+Created-By: Maven Integration for Eclipse
+

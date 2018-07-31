@@ -1,0 +1,19 @@
+server: 
+  port: 9090
+spring:
+  application:
+    name: redisManager
+  profiles:
+    active: dev
+  redis:
+    cluster:
+      nodes: 10.0.68.213:7000,10.0.68.213:7001,10.0.68.213:7002,10.0.68.214:7000,10.0.68.214:7001,10.0.68.214:7002
+      max-redirects: 3
+    timeout: 5000
+    password: ''
+    jedis: 
+      pool:
+        max-active: 50
+        max-idle: 30
+        max-wait: 500
+      
